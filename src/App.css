@@ -1,0 +1,38 @@
+body {margin: 0; padding: 0;}
+* {box-sizing: border-box;}
+.container {
+  width: 100%;
+  position: relative;
+  padding-top:5px;
+  text-align: center;
+  background: #e8d98b;
+  color: blue;
+}
+  #root {
+    width: 96%;
+    height: max-content;
+    margin: auto;
+    background: #fff;
+    overflow: auto;
+    border: 1px solid #000;
+    border-top: 1px solid #fff;
+  }
+    .App {
+      width: 90%;
+      margin: 0 auto;
+    }
+      .blokBt {margin: 5px 0; text-align: left;}
+        .btn {
+          margin: 0 3px;
+          background: #fff;
+          color: blue;
+          border: solid 1px blue;
+        }
+        .btn:hover {background: #c8f7ef; color: blue; cursor: pointer;}
+        .blue {background: blue; color: #fff;}
+      .conts {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+      }
+        .const_item {margin: 3px 2px;}
